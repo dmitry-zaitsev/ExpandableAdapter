@@ -13,7 +13,7 @@ Usage
 
 All you have to do is wrap ExapndableAdapter around your own adapter, providing it id of switch view (that will show\close second level on click) and holder view (that holds content that you want to show\hide by click).
 
-  ListAdapter adapter = new ExpandableAdapter(context,
+	ListAdapter adapter = new ExpandableAdapter(context,
 									yourAdapter,
 									R.id.switch,
 									R.id.holder);
